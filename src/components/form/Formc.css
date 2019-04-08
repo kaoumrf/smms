@@ -1,0 +1,32 @@
+.login-form {
+    max-width: 300px;
+  }
+  .login-form-forgot {
+    float: right;
+  }
+  .login-form-button {
+    width: 100%;
+  }
+    
+    .lbl{
+    font-size: 30px;
+    margin: 0%;}
+     
+    .formcontainer{
+      font-size: 25px;
+      padding:40px;
+      width: 50%;
+      float: left;
+    
+      }
+      .txt{
+      width: 700px;
+      text-align:left;
+      
+      }
+      h4{
+
+       text-align: center;  
+
+      }
+      

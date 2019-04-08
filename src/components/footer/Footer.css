@@ -1,0 +1,109 @@
+
+.footer ul, li ,a{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    padding: 0;
+    margin:0;
+    text-align: center;
+    color:white;
+}
+.barsBtn:after,.barsBtn:before{
+    content: attr(x);
+    width: 20px;
+    position: absolute;
+    top: -6px;
+    left: 0;
+    height: 2px;
+    background:black;
+  }
+.middle{
+    
+        font-size: 2vw;
+        width: 40vmin;
+        height: 30vmin;
+        background-color:rgb(40, 45, 46);
+margin-top:1%;
+      background-size: cover;
+    color:white;
+    text-align: center;
+  }
+
+     /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+    .k{
+        position: absolute;
+        right: 24vmin;
+        padding-top: 2vmin;
+        color:white;
+
+        font-size:2vw;}
+    .kk{ position: absolute;
+        right:6vmin;
+        padding-top: 2vmin;
+        color:white;
+
+         font-size:2vw;}
+         .middle{
+    
+            font-size: 1vw;
+            width: 40vmin;
+            height: 33vmin;
+            background-color:rgb(40, 45, 46);
+            margin-top:1%;
+          background-size: cover;
+        color:white;
+        text-align: center;
+      }
+  }
+  /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+
+  @media screen and (min-width: 601px) {
+    .k{
+        position: absolute;
+       right: 24vmin;
+       padding-top: 2vmin;
+    color:white;
+        font-size:2vw;}
+    .kk{ position: absolute;
+       right:6vmin;
+        padding-top: 2vmin;
+        color:white;
+
+         font-size:2vw;}
+         .middle{
+    
+            font-size: 2vw;
+            width: 60vmin;
+            height: 34vmin;
+            background-color:rgb(87, 87, 87);
+    margin-top:1%;
+          background-size: cover;
+        color:white;
+        text-align: center;
+      }
+  }
+  
+.footer img {
+    width: 5vmin;
+    height: 5vmin;
+    padding: 0;
+    margin:0;
+    filter: brightness(100%) invert(10%) sepia(4%) saturate(50%) hue-rotate(340deg) brightness(100%) contrast(50%);
+}
+.social a:hover img {
+    filter: invert(66%) sepia(8%) saturate(3929%) hue-rotate(308deg) brightness(94%) contrast(85%);
+}
+.footer{
+  background-color:rgb(65, 70, 71);
+  left: 0;
+  right:0;
+  bottom: 0; 
+  width: 100%;
+  float:bottom;
+margin-bottom:0;
+font-size:2vw;
+height:30%;
+color:white;
+}

@@ -1,0 +1,40 @@
+
+.social ul, li ,a{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    padding: 0;
+    margin: .8vmin;
+    color :white;
+}
+
+.social img {
+    width: 8vmin;
+    height: 5vmin;
+    padding-right: 3vmin;
+    margin:0;
+    filter:  invert(10%) sepia(4%) saturate(50%) hue-rotate(340deg) brightness(1000%) contrast(100%);
+}
+
+.social a:hover img {
+    filter: invert(66%) sepia(8%) saturate(3929%) hue-rotate(308deg) brightness(1000%) contrast(85%);
+}
+.l{
+align-content: right;
+}
+.social{
+  left: 0;
+  right:0;
+  bottom: 0;
+  width:30vmin;
+  padding:0;
+  margin-left:9vmin;
+font-size: 18px;
+height:8vmin;
+background-color: rgb(65, 70, 71);
+color:white;
+}
+.h1{
+    color:white;
+}

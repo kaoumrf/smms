@@ -1,0 +1,115 @@
+
+@import '~antd/dist/antd.css';
+
+@media screen and (max-width: 600px) {
+   .subm{
+        margin-right: 20vmin;
+        width: 20%;
+      }
+  }
+  /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+
+  @media screen and (min-width: 601px) {
+    .subm{
+        margin-right: 75vmin;
+        width: 20%;
+      } 
+  }
+  
+
+.logo{
+    width: 150px;
+    float: left;
+   margin-top: 0; 
+   padding-top: 0;
+  }
+  .logo a{
+      padding-left:10%;
+    margin-top: 0; 
+    padding-top: 0;
+    display: inline-block;
+    text-transform: capitalize;
+  }
+  .menus{
+      font-size: 1vw;
+      color: black;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      padding: 0 20px;
+  padding-top: 7px;
+
+  }
+  .btns{
+      margin-left: 5px;
+  }
+  .btn{
+width: 100%  }
+  .barsMenu{
+     height: 32px;
+    padding: 6px;
+    margin-top: 8px;
+    display: none;
+    background: none;
+   }
+  .barsBtn{
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: #1890ff;
+    position: relative;
+  }
+  .barsBtn:after,.barsBtn:before{
+    content: attr(x);
+    width: 20px;
+    position: absolute;
+    top: -6px;
+    left: 0;
+    height: 2px;
+    background: #1890ff;
+  }
+  .barsBtn:after{
+    top: auto;
+    bottom: -6px;
+  }
+  .ant-drawer-body{
+    padding: 0;
+  }
+  .ant-drawer-body .ant-menu-horizontal > .ant-menu-item, .ant-drawer-body .ant-menu-horizontal > .ant-menu-submenu{
+    display: inline-block;
+    width: 100%;
+  }
+  .ant-drawer-body .ant-menu-horizontal{
+    border-bottom: none;
+  }
+  .ant-drawer-body .ant-menu-horizontal > .ant-menu-item:hover{
+    border-bottom-color: transparent;
+  }
+
+
+  @media(max-width: 767px){
+    .submenu-title-wrapper{
+      display: none;
+
+    }
+    .btns{
+      display: none;
+    }
+    .subm{
+      display: none;
+    }
+    .barsMenu{
+      float: right;
+      display: inline-flex;
+
+
+    }
+    
+    .logo a{
+      margin-left: -20px;
+    }
+    .menuCon .ant-menu-item, .menuCon .ant-menu-submenu-title{
+      padding: 1px 20px;
+    }
+    .logo a{
+      padding: 10px 20px;
+    }
+  }

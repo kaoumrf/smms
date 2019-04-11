@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import "./nav.css"
 import {
   Form, Icon, Input, Button, Checkbox, Modal
 } from 'antd';
@@ -79,7 +80,7 @@ class Login extends Component {
           {/*<Button type="primary" htmlType="submit" className="login-form-button">
             Log in
           </Button>*/}
-          Ou &nbsp;<a href="/">S'inscrire!</a>
+          Ou &nbsp;<a href="/" className="nav" >S'inscrire!</a>
         </Form.Item>
       </Form>
       </Modal>

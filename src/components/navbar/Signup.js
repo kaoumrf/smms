@@ -257,7 +257,7 @@ import {
             {getFieldDecorator('agreement', {
               valuePropName: 'checked',
             })(
-              <Checkbox>J'ai lu <a href="/">l'agreement</a></Checkbox>
+              <Checkbox className="nav">J'ai lu <a href="/" className="nav">l'agreement</a></Checkbox>
             )}
           </Form.Item>
           {/*<Form.Item {...tailFormItemLayout}>

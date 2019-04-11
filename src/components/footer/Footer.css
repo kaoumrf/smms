@@ -18,17 +18,7 @@
     height: 2px;
     background:black;
   }
-.middle{
-    
-        font-size: 2vw;
-        width: 40vmin;
-        height: 30vmin;
-        background-color:rgb(40, 45, 46);
-margin-top:1%;
-      background-size: cover;
-    color:white;
-    text-align: center;
-  }
+ 
 
      /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 600px) {
@@ -50,7 +40,7 @@ margin-top:1%;
             font-size: 1vw;
             width: 40vmin;
             height: 33vmin;
-            background-color:rgb(40, 45, 46);
+            background-color:rgb(98, 217, 255);
             margin-top:1%;
           background-size: cover;
         color:white;
@@ -77,7 +67,7 @@ margin-top:1%;
             font-size: 2vw;
             width: 60vmin;
             height: 34vmin;
-            background-color:rgb(87, 87, 87);
+            background-color:rgb(37, 143, 251);
     margin-top:1%;
           background-size: cover;
         color:white;
@@ -96,7 +86,7 @@ margin-top:1%;
     filter: invert(66%) sepia(8%) saturate(3929%) hue-rotate(308deg) brightness(94%) contrast(85%);
 }
 .footer{
-  background-color:rgb(65, 70, 71);
+  background-color:rgb(0, 134, 220);
   left: 0;
   right:0;
   bottom: 0; 
